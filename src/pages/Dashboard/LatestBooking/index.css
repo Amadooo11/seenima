@@ -1,0 +1,30 @@
+.page-dashboard main .content > .latest-booking > .entry {
+  margin: 0.125rem;
+  background-color: var(--palette-pale-blue);
+  padding-inline: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.page-dashboard main .content > .latest-booking > .entry > *:nth-child(1) {
+  color: var(--palette-cyan);
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.page-dashboard main .content > .latest-booking > .entry > *:nth-child(2) {
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.page-dashboard main .content > .latest-booking > .entry > *:nth-child(3) {
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}

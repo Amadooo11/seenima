@@ -1,0 +1,292 @@
+.movies .add-movies {
+    width: 8%;
+    height: 20vh;
+    background-color: #1F2F55;
+    min-width: 400px;
+    min-height: 750px;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1px;
+    padding: 25px;
+    
+  }
+  
+  .movies .add-movies h4 {
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #02d3e6;
+  }
+  
+  .movies .add-movies p {
+    margin-top: 30px;
+  }
+  
+  .movies .add-movies input {
+    width: 100%;
+    height: 40px;
+  }
+  
+  .movies .add-movies .description-input {
+    width: 100%;
+    height: 90px;
+    text-align: left;
+  }
+  
+  .movies .add-movies .poster {
+    width: 84%;
+    height: 40px;
+  }
+  
+  .movies .add-movies .trailer {
+    width: 84%;
+    height: 40px;
+  }
+  
+  .movies .add-movies .genre {
+    width: 84%;
+    height: 40px;
+  }
+  
+  .movies .add-movies button {
+    background-color: #00bdce;
+    position: relative;
+    top: -2px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+  }
+  
+  .movies .add-movies .add-movie-btn {
+    background-color: #00bdce;
+    position: relative;
+    top: 43px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 76, 175);
+  }
+  
+  .movies .sched-section {
+    width: 20%;
+    height: 100%;
+    min-width: 650px;
+    min-height: 750px;
+    margin-left: 40%;
+    margin-top: -62.8%;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1px;
+    padding: 5px;
+  
+  }
+  /*time*/
+  .movies .sched-section .time-date {
+    border: 4px solid #1F2F55;
+    min-width: 700px;
+    margin-right: 30%;
+    min-height: 200px;
+    font-weight: 400;
+
+    color: white;
+    line-height: 1px;
+    padding: 3px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .movies .sched-section .time-date .clock{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movies .sched-section .time-date .clock p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+  
+  .movies .sched-section .create-sched {
+    width: 55%;
+    height: 100%;
+    background-color: #1F2F55;
+    min-width: 300px;
+    margin-top: 2%;
+    min-height: 505px;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1px;
+    padding: 25px;
+    float: left;
+  }
+  .movies .create-sched .sched-section{
+    margin-bottom: 8%;
+  }
+  .movies .sched-section h4 {
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #02d3e6;
+  }
+  
+  .movies .sched-section .create-sched p {
+    margin-top: 30px;
+  }
+  
+  .movies .sched-section input {
+    width: 80%;
+    height: 40px;
+  }
+  
+  .movies .sched-section button {
+    background-color: #00bdce;
+    position: relative;
+    top: -3px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+  }
+  
+  .movies .sched-section .create-sched .create-sched-btn {
+    background-color: #00bdce;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 76, 175);
+  }
+  
+  .movies .sched-section .schedule {
+    width: 20%;
+    height: 100%;
+    background-color: #1F2F55;
+    min-width: 326px;
+    margin-top: -81%;
+    margin-left: 58%;
+    min-height: 537px;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 1px;
+    padding: 3px;
+    overflow: hidden;
+    float: left;
+  }
+  
+  .movies .sched-section .schedule .sched-list-header {
+    background: linear-gradient(90deg, #345196, #1F2F55);
+    width: 100%;
+    height: 60%;
+    margin-bottom: 3px;
+    min-width: 200px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .movies .sched-section .schedule .sched-list-header h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 650;
+    color: #02d3e6;
+  }
+  
+  .movies .sched-section .schedule .sched-list {
+    background: linear-gradient(90deg, #1F2F55, #345196);
+    width: 100%;
+    height: 80%;
+    margin-bottom: 3px;
+    min-width: 200px;
+    min-height: 80px;
+    padding: 12px;
+  }
+  
+  .movies .sched-section .schedule .sched-list h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 650;
+    color: #02d3e6;
+  }
+  
+  .movies .sched-section .schedule .sched-list .sched-list-body p {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .movies .sched-section .schedule .sched-list .sched-list-body {
+    display: flex;
+    float: left;
+  }
+  
+  .movies .sched-section .schedule .sched-list .sched-list-body .sched-date {
+    width: 33%;
+    min-width: 100px;
+    min-height: 80px;
+  
+  }
+  
+  .movies .sched-section .schedule .sched-list .sched-list-body .sched-cinema {
+    width: 33%;
+    min-width: 100px;
+    min-height: 10px;
+    margin-left: 5%;
+  }
+  
+  .movies .sched-section .schedule .sched-list .sched-list-body .sched-time {
+    width: 33%;
+    min-width: 100px;
+    min-height: 10px;
+    margin-left: 5%;
+  }
+
+  .movies main .time-date > .clock {
+    background-color: var(--palette-bg-blue);
+    border: 4px solid var(--palette-blue);
+    color: white;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movies  main .time-date > .clock > *:nth-child(1) {
+    font-size: 35rem;
+    font-weight: bold;
+  }
+  
+  .movies main .time-date > .clock > *:nth-child(2) {
+    font-size:6rem;
+  }

@@ -1,0 +1,58 @@
+.social-icons ul li{
+  font-size: 35px;
+}
+
+.footer{
+  height: auto;
+  width: auto;
+}
+
+.social-icons a{
+  transition: 0.3s ease-in-out
+}
+
+.social-icons ul li a:hover{
+  color: #30cbf9 !important;
+}
+
+.social-icons{
+  background: #103AA0;
+  background: linear-gradient(to bottom right, #103AA0, #8BC1D6);
+}
+
+.app-name, .useful-links{
+  background: #1f2f55;
+}
+
+.app-name{
+  position: relative;
+}
+
+.app-name::after{
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  left: 250px;
+  right: 0;
+  top: 10px;
+  border-right: 2px solid gray;
+  width: 50%;
+  height: 85%;
+}
+
+.app-name h1{
+  font-family: "bebas neue";
+  font-size: 50px !important;
+  background: -webkit-linear-gradient(right, #27eaf0, #30cbf9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.useful-links ul li{
+  cursor: pointer;
+  transition: .3s ease-out
+}
+
+.useful-links ul li:hover{
+  color: #30cbf9;
+}

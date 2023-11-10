@@ -1,0 +1,27 @@
+.cont .movies .heading{
+    background-color: #345196;
+   
+}
+
+.cont .movies .form-label{
+    color: aqua;
+}
+
+.cont .movies{
+    padding: 0;
+    width: 90%;
+    height: 90vh;
+    background-color: #0b1838;
+    border-left: 10px solid #345196;
+    border-bottom: 10px solid #345196;
+    border-right: 10px solid #345196;
+}
+
+.Add-new-button{
+    background: #33c5ff;
+    background: linear-gradient(90deg, #27ffff, #33c5ff);
+    border: none;
+    color: rgb(0, 45, 103);
+    font-weight: 700;
+    padding: 10px 80px;
+}

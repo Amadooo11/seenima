@@ -1,0 +1,165 @@
+.coming-soon {
+  height: 85vh;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+
+}
+
+body {
+  background-color: #0e1c40 !important;
+}
+
+#app {
+  height: 100%;
+}
+
+.swiperssss {
+  width: 98%;
+  height: 400px;
+  padding-left: 20px;
+}
+
+.swiperssss .infoss {
+  padding-left: 9px;
+  padding-top: 10px;
+}
+
+.swiperssss .infoss h4 {
+  color: rgb(0, 187, 255);
+}
+
+.swiper-slide {
+  color: #ffffff;
+  background: #1F2F55;
+  background: linear-gradient(90deg, #345196, #1F2F55);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 60px;
+  cursor: pointer;
+
+}
+
+.swiper-slide img:hover {
+  filter: brightness(50%);
+}
+
+.coming-soon p {
+  font-family: lato;
+
+}
+
+.swiper-slide h4 {
+  font-family: "Bebas neue";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.swiper-slide img {
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 17em;
+  transition: 0.2s ease-in-out;
+}
+
+
+.hey h1 {
+  right: 34px;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  /*   border:solid 1px white; */
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.hey h1:hover {
+  /*  animation:borderAni 5s cubic-bezier(0, 0.6, 1, 0.4); */
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.hey h1:after {
+  position: absolute;
+  display: block;
+  content: "";
+  color: white;
+  width: 20px;
+  height: 15px;
+  /*   border:solid 1px;  */
+  top: -1px;
+  border-bottom: solid 2px;
+  transform: translatex(4px);
+}
+
+.hey h1:before {
+  position: absolute;
+  display: block;
+  content: "";
+  color: white;
+  width: 8px;
+  height: 8px;
+  /*   border:solid 1px;  */
+  border-top: solid 2px;
+  border-left: solid 2px;
+  top: 50%;
+  left: 2px;
+  transform-origin: 0% 0%;
+  transform: rotatez(-45deg);
+
+}
+
+.hey h1:hover:before {
+  animation: aniArrow01 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+
+.hey h1:hover:after {
+  animation: aniArrow02 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+
+@keyframes aniArrow01 {
+  0% {
+    transform: rotatez(-45deg) translateY(30px) translateX(30px);
+  }
+
+  100% {
+    transform: rotatez(-45deg) translateY(-35px) translateX(-35px);
+  }
+}
+
+
+@keyframes aniArrow02 {
+  0% {
+    transform: translateX(45px);
+  }
+
+  100% {
+    transform: translateX(-44px);
+  }
+}
+
+@keyframes borderAni {
+  0% {
+    border: solid 2px white;
+  }
+
+  100% {
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+}
+
+.coming-soon h1 {
+  color: blue;
+  font-family: "Bebas neue";
+
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 480px;
+  right: 0;
+}

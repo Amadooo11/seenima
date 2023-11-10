@@ -1,0 +1,293 @@
+.page-admin-login {
+  /* Custom properties */
+  --palette-text-light: white;
+  --palette-cyan: #33c5ff;
+  --palette-blue: #1f2f55;
+  --palette-bg-blue: #0e1c40;
+  --palette-pale-blue: #2b4173;
+  --palette-gradient-dark: linear-gradient(90deg, #345196, #1f2f55);
+  --palette-gradient-dark-reversed: linear-gradient(290deg, #345196, #1f2f55);
+  --palette-gradient-light: linear-gradient(90deg, #27ffff, #33c5ff);
+  --palette-gradient-light-reversed: linear-gradient(270deg, #27ffff, #33c5ff);
+  /* Styles */
+  display: grid;
+  grid-template-columns: 35rem 5fr;
+  min-height: 100vh;
+  color: white;
+  margin-inline: auto;
+  padding-right: 1rem;
+  padding-block: 1rem;
+}
+
+.page-admin-login > .col-left > form {
+  background-image: var(--palette-gradient-dark);
+  height: 100%;
+  width: 23rem;
+  margin-left: auto;
+  padding-top: 0.5rem;
+}
+
+.page-admin-login > .col-left > form > .clock {
+  border: 2px solid var(--palette-pale-blue);
+
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  line-height: 1.2;
+  padding-top: 1.75rem;
+  padding-bottom: 1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.page-admin-login > .col-left > form > .clock .time {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.page-admin-login > .col-left > form > .clock .date {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.page-admin-login > .col-left > form > .logo {
+  text-align: center;
+  font-size: 2.25rem;
+  font-family: "Bebas Neue";
+  color: var(--palette-cyan);
+  line-height: 1;
+  padding-top: 0.5rem;
+}
+
+.page-admin-login > .col-left {
+  background-image: url("./imgs/theater.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-admin-login > .col-left > form > .logo p {
+  margin: 0;
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+
+.page-admin-login > .col-left > form > .logo img {
+  max-width: 8rem;
+}
+
+.page-admin-login > .col-left > form > .inputs {
+  padding-inline: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.page-admin-login > .col-left > form > .inputs p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.page-admin-login > .col-left > form > .inputs label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding-block: 0.75rem;
+}
+
+.page-admin-login > .col-left > form > .inputs input {
+  padding-inline: 0.5rem;
+  padding-block: 0.25rem;
+}
+
+.page-admin-login > .col-left > form > .inputs > * {
+  display: block;
+  width: 100%;
+}
+
+.page-admin-login > .col-left > form > .actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.page-admin-login > .col-left > form > .actions button {
+  height: 3rem;
+  border: none;
+  background-image: var(--palette-gradient-light);
+  color: var(--palette-pale-blue);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.page-admin-login > .col-left > form > .actions button:hover {
+  background-image: var(--palette-gradient-light-reversed);
+}
+
+.page-admin-login > .col-right {
+  background-image: var(--palette-gradient-dark-reversed);
+  display: grid;
+  grid-template-rows: 1fr calc(1fr - 2rem);
+}
+
+.page-admin-login > .col-right > .movies-showing-now {
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  font-family: Lato;
+}
+
+.page-admin-login > .col-right > .movies-showing-now > .title {
+  text-align: center;
+  color: var(--palette-cyan);
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.page-admin-login > .col-right > .movies-showing-now > .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-admin-login > .col-right > .movies-showing-now > .cards .movie-entry {
+  max-width: 13rem;
+}
+
+.page-admin-login
+  > .col-right
+  > .movies-showing-now
+  > .cards
+  .movie-entry
+  .movie-card {
+  background-image: var(--palette-gradient-dark);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 1fr auto auto auto;
+}
+
+.page-admin-login
+  > .col-right
+  > .movies-showing-now
+  > .cards
+  .movie-entry
+  .movie-card
+  img {
+  max-width: 100%;
+  height: 12rem;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+.page-admin-login
+  > .col-right
+  > .movies-showing-now
+  > .cards
+  .movie-entry
+  .movie-card
+  p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.page-admin-login
+  > .col-right
+  > .movies-showing-now
+  > .cards
+  .movie-entry
+  .movie-card
+  p:first-of-type {
+  padding-top: 0.75rem;
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+  color: var(--palette-cyan);
+}
+
+.page-admin-login > .col-right > .movies-showing-now > .cards .movie-time {
+  background-image: var(--palette-gradient-dark);
+  border: 1px solid var(--palette-gradient-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-admin-login > .col-right > .top-three-movies {
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  font-family: Lato;
+}
+
+.page-admin-login > .col-right > .top-three-movies > .title {
+  text-align: center;
+  color: var(--palette-cyan);
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.page-admin-login > .col-right > .top-three-movies > .cards {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.page-admin-login > .col-right > .top-three-movies > .cards .movie-entry {
+  max-width: 13rem;
+}
+
+.page-admin-login
+  > .col-right
+  > .top-three-movies
+  > .cards
+  .movie-entry
+  .movie-card {
+  background-image: var(--palette-gradient-dark);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 1fr auto auto auto;
+}
+
+.page-admin-login
+  > .col-right
+  > .top-three-movies
+  > .cards
+  .movie-entry
+  .movie-card
+  img {
+  max-width: 100%;
+  height: 12rem;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+.page-admin-login
+  > .col-right
+  > .top-three-movies
+  > .cards
+  .movie-entry
+  .movie-card
+  p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.page-admin-login
+  > .col-right
+  > .top-three-movies
+  > .cards
+  .movie-entry
+  .movie-card
+  p:first-of-type {
+  font-family: "Bebas Neue";
+  font-size: 1.5rem;
+  color: var(--palette-cyan);
+  text-align: center;
+  padding-top: 0.75rem;
+}

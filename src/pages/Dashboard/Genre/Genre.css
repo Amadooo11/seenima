@@ -1,0 +1,55 @@
+
+
+.cast-cont .movies .form-label{
+    color: aqua;
+    font-size: 20px;
+}
+
+.add-cast-container{
+    padding: 5px 60px;
+    height: 100vh;
+}
+
+.add-cast-container .col1{
+    background-color: #0b1838;
+    border-left: 10px solid #345196;
+    border-bottom: 10px solid #345196;
+    border-right: 10px solid #345196;
+    height: 90vh;
+    padding: 50px;
+}
+
+.add-cast-container h2{
+    background-color: #345196;
+}
+
+.add-cast-container .genre-section{
+    background-color: #345196;
+    padding: 10px 20px;
+    height: 55vh;
+}
+
+.add-cast-container .genre-section .a-genre{
+    background-color: #091e4f;
+    padding: 15px;
+    margin-top: 2%;
+}
+
+.Add-new-button{
+    background: #33c5ff;
+    background: linear-gradient(90deg, #27ffff, #33c5ff);
+    border: none;
+    color: rgb(0, 45, 103);
+    font-weight: 700;
+    padding: 10px 80px;
+}
+
+.Add-new-button-secondary{
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    color: rgb(4, 106, 240);
+    font-weight: 700;
+    padding: 10px 80px;
+    border: 3px solid rgb(4, 106, 240);
+}
